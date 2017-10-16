@@ -9,7 +9,7 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/students?useSSL=false</property>
         <property name="hibernate.default_schema">students</property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">adminiptv2017</property>
+        <property name="hibernate.connection.password">adminiptv</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
 

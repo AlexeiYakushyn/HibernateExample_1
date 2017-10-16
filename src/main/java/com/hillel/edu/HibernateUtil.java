@@ -20,8 +20,8 @@ public class HibernateUtil {
             Session session = sessionFactory.openSession();
             session.toString();
             @SuppressWarnings("unchecked")
-            List<Students> resultList = session.createQuery(" from Students ").getResultList();
-            System.out.println(resultList.get(0));
+            List<Students> resultList = session.createQuery("from com.hillel.edu.Students").getResultList();
+            System.out.println(resultList.get(2));
             session.close();
         }
     }
